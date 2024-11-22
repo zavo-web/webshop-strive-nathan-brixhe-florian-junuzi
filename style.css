@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
 nav img {
     position: absolute;
     left: 0;
     width: 180px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.Zoekbalk {
+    right: 0;
+}
 
 footer {
     background-color: #f9f9f9;
