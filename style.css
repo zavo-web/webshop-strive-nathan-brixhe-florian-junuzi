@@ -1,173 +1,83 @@
-/* Basis stijl voor de navigatie */
-body {
-    font-family: 'Poppins', sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
-}
-
-.navigatie {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navigatie a {
-    text-decoration: none;
-    color: #333;
-}
-
-.navigatie img {
-    height: 150px;
-}
-
-.navigatieLijst {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-}
-
-.navigatieLijst .dropdown {
-    position: relative;
-}
-
-.navigatieLijst .dropdown-menu {
-    list-style: none;
-    padding: 10px;
-    margin: 0;
+nav img {
     position: absolute;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    display: none;
+    left: 0;
+    width: 180px;
 }
 
-.navigatieLijst .dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.navigatieLijst .dropdown-menu li {
-    margin: 5px 0;
-}
-
-.navigatieLijst .dropdown-menu a {
-    color: #555;
-}
-
-.Zoekbalk {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.navigatie i {
-    font-size: 20px;
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-/* Zoekbalk activeren wanneer de zoekicoon wordt geklikt */
-.navigatie i.fa-magnifying-glass {
-    margin-right: 10px;
-}
-
-.navigatie i.fa-magnifying-glass:hover+.Zoekbalk {
-    outline: 2px solid #000;
-    transition: outline 0.3s;
-}
-
-/* Flexbox styling voor logo, menu en iconen */
-.navigatie {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navigatie .navigatieLijst {
+nav {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
 }
 
-.navigatie i,
 .Zoekbalk {
-    display: inline-block;
+    right: 0;
 }
-
-.navigatie input:focus {
-    outline: 2px solid #007bff;
-}
-
-
-
-
 
 footer {
     background-color: #f9f9f9;
     padding: 20px 0;
     font-family: Arial, sans-serif;
     border-top: 1px solid #ddd;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .footer-section {
+}
+
+.footer-section {
     flex: 1;
     min-width: 200px;
     margin: 10px;
-  }
-  
-  .footer-section h3 {
+}
+
+.footer-section h3 {
     margin-bottom: 15px;
     color: #000;
-  }
-  
-  .footer-section ul {
+}
+
+.footer-section ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-section ul li {
+}
+
+.footer-section ul li {
     margin-bottom: 10px;
-  }
-  
-  .footer-section ul li a {
+}
+
+.footer-section ul li a {
     text-decoration: none;
     color: #555;
-  }
-  
-  .footer-section ul li a:hover {
+}
+
+.footer-section ul li a:hover {
     color: #000;
-  }
-  
-  .footer-section p {
+}
+
+.footer-section p {
     color: #555;
     font-size: 14px;
-  }
-  
-  .footer-section a {
+}
+
+.footer-section a {
     color: #000;
     text-decoration: none;
     margin-right: 10px;
     font-size: 20px;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     text-align: center;
     margin-top: 20px;
     color: #777;
     font-size: 14px;
-  }
-  
+}
