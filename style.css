@@ -1,105 +1,16 @@
-/* Basis stijl voor de navigatie */
-body {
-    font-family: 'Poppins', sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
-}
-
-.navigatie {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navigatie a {
-    text-decoration: none;
-    color: #333;
-}
-
-.navigatie img {
-    height: 150px;
-}
-
-.navigatieLijst {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-}
-
-.navigatieLijst .dropdown {
-    position: relative;
-}
-
-.navigatieLijst .dropdown-menu {
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    position: absolute;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    display: none;
-}
-
-.navigatieLijst .dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.navigatieLijst .dropdown-menu li {
-    margin: 5px 0;
-}
-
-.navigatieLijst .dropdown-menu a {
-    color: #555;
-}
-
-.Zoekbalk {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.navigatie i {
-    font-size: 20px;
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-/* Zoekbalk activeren wanneer de zoekicoon wordt geklikt */
-.navigatie i.fa-magnifying-glass {
-    margin-right: 10px;
-}
-
-.navigatie i.fa-magnifying-glass:hover+.Zoekbalk {
-    outline: 2px solid #000;
-    transition: outline 0.3s;
-}
-
-/* Flexbox styling voor logo, menu en iconen */
-.navigatie {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navigatie .navigatieLijst {
+nav {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
 }
 
-.navigatie i,
-.Zoekbalk {
-    display: inline-block;
-}
-
-.navigatie input:focus {
-    outline: 2px solid #007bff;
+nav img {
+    position: absolute;
+    left: 0;
+    width: 180px;
 }
