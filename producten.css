@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home {
+    color: black;
+    font-family: Poppins;
+    font-size: 20px;
+
+}
+
+
+.hoofdtekst {
+    font-family: Poppins;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.hoofdtekst h2 {
+    font-size: 40px;
+
+}
+
+.hoofdtekst p {
+    font-size: 24px;
+    font-family: Poppins;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white
+}
+
+
+.producten-best {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    width: calc(4 * 200px + 2 * 20px);
+}
+
+/* Individuele productkaartstijl */
+.product-voorstel {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px;
+    transition: transform 0.6s;
+}
+
+.product-voorstel:hover {
+    transform: scale(1.05);
+}
+
+.product-voorstel img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-voorstel h3 {
+    font-size: 1.2em;
+    color: black;
+    margin: 10px 0;
+}
+
+.product-voorstel .prijs {
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+
+.product-voorstel .beschrijving {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0 15px;
+}
+
+/* Stijl voor de "Voeg toe aan winkelmandje"-knop */
+.product-voorstel button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.product-voorstel button:hover {
+    background-color: #bb1111;
+}
