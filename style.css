@@ -167,10 +167,10 @@ header {
 
 
 footer {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: 20px 0;
   font-family: 'Poppins', sans-serif;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ffffff;
 }
 
 .footer-container {
@@ -214,6 +214,9 @@ footer {
   color: #555;
   font-size: 20px;
   margin-bottom: 5px;
+  display: flex; /* Voeg flexbox toe */
+  align-items: center; /* Centreer de tekst verticaal */
+  margin: 0; /* Zorg dat er geen extra marges zijn */
 }
 
 .footer-section a {
@@ -221,6 +224,8 @@ footer {
   text-decoration: none;
   margin-right: 10px;
   font-size: 20px;
+  display: inline-block; /* Zorg voor consistente uitlijning */
+  margin-bottom: 5px; /* Voeg ruimte tussen items toe */
 }
 
 .footer-bottom {
