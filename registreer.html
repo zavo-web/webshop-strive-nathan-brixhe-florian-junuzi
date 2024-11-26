@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Strive</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Registreer - Strive</title>
+    <link rel="stylesheet" href="registreer.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"/>
 </head>
@@ -61,8 +61,25 @@
     
     <main class="loginvak">
     <section class="login">
-    <h2>Welkom bij Strive.<br>Log in of maak een account</h2>
+    <h2>Welkom bij Strive.<br>Maak een account aan</h2>
     <form>
+    
+    <section class="invoer">
+    <label for="name">Voornaam</label><br>
+    <section class="invoericon">
+    <input type="name" id="name" required><br>
+    <i class="fa-solid fa-user"></i>
+    </section>
+    </section>
+
+    <section class="invoer">
+        <label for="lastname">Naam</label><br>
+        <section class="invoericon">
+        <input type="lastname" id="lastname" required><br>
+        <i class="fa-solid fa-user"></i>
+        </section>
+        </section>
+
     <section class="invoer">
     <label for="email">Email Adress</label><br>
     <section class="invoericon">
@@ -79,8 +96,7 @@
     </section>
     </section>
     <br>
-    <button class="btn">LOGIN</button>
-    <p>Heb je geen account? <a href="registreer.html">Registreer hier</a></p>
+    <button class="btn">CREËREN</button>
     </form>
 </section>
 </main>
