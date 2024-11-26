@@ -20,6 +20,28 @@ p {
 }
 
 
+a.shop {
+    padding: 10px 10px;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.image {
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+
+
 footer {
     background-color: #ffffff;
     padding: 20px 0;
