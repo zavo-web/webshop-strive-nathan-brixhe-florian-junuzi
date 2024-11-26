@@ -31,3 +31,74 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid #ffffff;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #000;
+  }
+  
+  .footer-section p {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex; /* Voeg flexbox toe */
+    align-items: center; /* Centreer de tekst verticaal */
+    margin: 0; /* Zorg dat er geen extra marges zijn */
+  }
+  
+  .footer-section a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block; /* Zorg voor consistente uitlijning */
+    margin-bottom: 5px; /* Voeg ruimte tussen items toe */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+  }
