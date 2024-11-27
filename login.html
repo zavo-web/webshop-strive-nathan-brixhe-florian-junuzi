@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Strive</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"/>
+</head>
+<body>
+    <header>
+        <!-- Logo door Florian -->
+        <nav class="navigatie">
+          <a href="index.html">
+            <img src="images/Logo_Strive.png" alt="Logo Strive" />
+          </a>
+          <!-- Dropdown door Nathan -->
+          <ul class="navigatieLijst">
+            <li class="dropdown">
+              <a href="#">Producten</a>
+              <ul class="dropdown-menu">
+                <li><a href="handschoenen.html">Bokshandschoenen</a></li>
+                <li><a href="hoofd.html">Hoofdbeschermers</a></li>
+                <li><a href="footwear.html">Footwear</a></li>
+                <li><a href="accesoires.html">Accessoires</a></li>
+              </ul>
+            </li>
+  
+            <li class="dropdown">
+              <a href="#">Over Ons</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Onze Missies</a></li>
+                <li><a href="#">Klantenrevieuw</a></li>
+              </ul>
+            </li>
+  
+            <li class="dropdown">
+              <a href="#">Contact</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Klantenservice</a></li>
+                <li><a href="#">Verzending</a></li>
+              </ul>
+            </li>
+          </ul>
+  
+          <!-- Zoekbalk door Nathan-->
+          <input type="search" placeholder="Zoek" class="Zoekbalk" id="zoek" />
+  
+          <!-- Icons door Florian -->
+          <a href="#zoek">
+            <i class="fa-light fa-magnifying-glass"></i>
+          </a>
+          <a href="login.html">
+          <i class="fa-light fa-user"></i>
+        </a>
+          <i class="fa-light fa-cart-shopping"></i>
+        </nav>
+      </header>
+
+    
+    <main class="loginvak">
+    <section class="login">
+    <h2>Welkom bij Strive.<br>Log in of maak een account</h2>
+    <form>
+    <section class="invoer">
+    <label for="email">Email Adress</label><br>
+    <section class="invoericon">
+    <input type="email" id="email" required><br>
+    <i class="fas fa-envelope"></i>
+    </section>
+    </section>
+<br>
+    <label  for="wachtwoord">Wachtwoord</label><br>
+    <section class="invoer">
+    <section class="invoericon">
+    <input type="password" id="wachtwoord" required>
+    <i class="fas fa-lock"></i>
+    </section>
+    </section>
+    <br>
+    <button class="btn">LOGIN</button>
+    <p>Heb je geen account? <a href="registreer.html">Registreer hier</a></p>
+    </form>
+</section>
+</main>
+</body>
+</html>

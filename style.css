@@ -41,7 +41,7 @@ header {
 .navigatieLijst li {
   position: relative;
   margin: 0 15px;
-  font-size: 18px;
+  font-size: 19px;;
 }
 
 .navigatieLijst a {
@@ -66,13 +66,14 @@ header {
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%px;
+  top: 100%;
   left: 0;
   background-color: #444;
   border-radius: 5px;
   list-style: none;
   padding: 10px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
 }
 
 .dropdown-menu li {
@@ -85,10 +86,12 @@ header {
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  
 }
 
 .dropdown-menu a:hover {
   background-color: #555;
+  
 }
 
 /* Zoekbalk */
