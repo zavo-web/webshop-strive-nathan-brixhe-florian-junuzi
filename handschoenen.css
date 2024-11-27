@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.home {
+    color: #151515;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+
+
+.hoofdtekst {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #151515;
+    color: white;
+    
+    
+}
+
+.hoofdtekst h2 {
+    font-size: 40px;
+    
+}
+
+.hoofdtekst p {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 720px;
+    margin: 0 auto; 
+    color: white
+}
+
+
+.producten-best {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    width: calc(3 * 200px + 2 * 20px);
+}
+
+/* Individuele productkaartstijl */
+.product-voorstel {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px;
+    transition: transform 0.6s;
+}
+
+.product-voorstel:hover {
+    transform: scale(1.05);
+}
+
+.product-voorstel img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-voorstel h3 {
+    font-size: 1.2em;
+    color: black;
+    margin: 10px 0;
+}
+
+.product-voorstel .prijs {
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+
+.product-voorstel .beschrijving {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0 15px;
+}
+
+/* Stijl voor de "Voeg toe aan winkelmandje"-knop */
+.product-voorstel button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.product-voorstel button:hover {
+    background-color: #bb1111;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navigatie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 150px;
+  }
+  
+  .navigatie img {
+    width: 180px;
+    position: relative;
+    left: 0;
+    top: 0;
+    justify-content: center;
+  }
+  
+  .navigatieLijst {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+  
+  }
+  
+  .navigatieLijst li {
+    position: relative;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .navigatieLijst a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigatieLijst a:hover {
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+  
+  
+  /* Dropdown-menu */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%px;
+    left: 0;
+    background-color: #444;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #555;
+  }
+  
+  /* Zoekbalk */
+  .Zoekbalk {
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    border-color: black;
+  }
+  
+  .Zoekbalk::placeholder {
+    color: #aaa;
+  }
+  
+  .navigatie i {
+    color: black;
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .navigatie i:hover {
+    color: #aaa;
+  }
+  
