@@ -203,7 +203,11 @@ a {
   justify-content: center;
   align-items: center;
   position: absolute;
+<<<<<<< HEAD
   top: 65%;
+=======
+  top: 70%;
+>>>>>>> 8f036b0acb000fc65d04553bb9f8c8787f4fde57
   left: 50%;
   transform: translate(-50%, -50%);
 
