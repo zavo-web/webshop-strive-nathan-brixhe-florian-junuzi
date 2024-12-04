@@ -1,0 +1,252 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  padding: 10px 0;
+  /* Zorgt dat de head niet beweegt en vast plakt */
+  position: sticky;
+  top: 0;
+  /* Zorgt dat de nav boven de banner is  */
+  z-index: 1;  
+
+}
+
+.navigatie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 150px;
+}
+
+.navigatie img {
+  width: 180px;
+  position: relative;
+  left: 0;
+  top: 0;
+  justify-content: center;
+}
+
+.navigatieLijst {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+
+}
+
+.navigatieLijst li {
+  position: relative;
+  margin: 0 15px;
+  font-size: 19px;
+  ;
+}
+
+.navigatieLijst a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navigatieLijst a:hover {
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+
+/* Dropdown-menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+}
+
+.dropdown-menu a:hover {
+  background-color: #555;
+
+}
+
+/* Zoekbalk */
+.Zoekbalk {
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  border-color: black;
+}
+
+.Zoekbalk::placeholder {
+  color: #aaa;
+}
+
+.navigatie i {
+  color: black;
+  margin-left: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navigatie i:hover {
+  color: #aaa;
+}
+
+.banner-image {
+  background-image: url("images/new_banner_rood.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
+
+.btn {
+  cursor: pointer;
+  border: solid black;
+  font-family: Poppins;
+  font-size: 18px;
+  color: black;
+  padding: 10px 30px;
+  transition: 277ms;
+  width: 147px;
+  border-radius: 25px;
+  background: white;
+  font-weight: 100;
+  --hover-bgc: #000000;
+  --hover-width: 147px;
+  --hover-color: #ffffff;
+  --hover-borderc: #ffffff;
+  --hover-borderSize: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  width: 147px;
+  background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.speciale-aanbieding {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer-section ul li a:hover {
+  color: #000;
+}
+
+.footer-section p {
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  /* Voeg flexbox toe */
+  align-items: center;
+  /* Centreer de tekst verticaal */
+  margin: 0;
+  /* Zorg dat er geen extra marges zijn */
+}
+
+.footer-section a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline-block;
+  /* Zorg voor consistente uitlijning */
+  margin-bottom: 5px;
+  /* Voeg ruimte tussen items toe */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+  font-size: 14px;
+}
