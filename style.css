@@ -41,7 +41,8 @@ header {
 .navigatieLijst li {
   position: relative;
   margin: 0 15px;
-  font-size: 19px;;
+  font-size: 19px;
+  ;
 }
 
 .navigatieLijst a {
@@ -73,7 +74,7 @@ header {
   list-style: none;
   padding: 10px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 .dropdown-menu li {
@@ -86,12 +87,12 @@ header {
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  
+
 }
 
 .dropdown-menu a:hover {
   background-color: #555;
-  
+
 }
 
 /* Zoekbalk */
@@ -165,7 +166,13 @@ header {
 }
 
 
-
+.speciale-aanbieding {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
 
 
 footer {
@@ -216,9 +223,12 @@ footer {
   color: #555;
   font-size: 20px;
   margin-bottom: 5px;
-  display: flex; /* Voeg flexbox toe */
-  align-items: center; /* Centreer de tekst verticaal */
-  margin: 0; /* Zorg dat er geen extra marges zijn */
+  display: flex;
+  /* Voeg flexbox toe */
+  align-items: center;
+  /* Centreer de tekst verticaal */
+  margin: 0;
+  /* Zorg dat er geen extra marges zijn */
 }
 
 .footer-section a {
@@ -226,8 +236,10 @@ footer {
   text-decoration: none;
   margin-right: 10px;
   font-size: 20px;
-  display: inline-block; /* Zorg voor consistente uitlijning */
-  margin-bottom: 5px; /* Voeg ruimte tussen items toe */
+  display: inline-block;
+  /* Zorg voor consistente uitlijning */
+  margin-bottom: 5px;
+  /* Voeg ruimte tussen items toe */
 }
 
 .footer-bottom {
