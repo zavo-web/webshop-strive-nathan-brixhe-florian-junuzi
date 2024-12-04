@@ -8,9 +8,12 @@ body {
 header {
   background-color: white;
   padding: 10px 0;
+  /* Zorgt dat de head niet beweegt en vast plakt */
   position: sticky;
   top: 0;
-  z-index: 1000;
+  /* Zorgt dat de nav boven de banner is  */
+  z-index: 1;  
+
 }
 
 .navigatie {

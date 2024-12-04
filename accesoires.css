@@ -15,7 +15,6 @@
 
 
 .hoofdtekst {
-<<<<<<< HEAD
   font-family: 'Poppins', sans-serif;
   text-align: center;
   padding: 40px 20px;
@@ -23,15 +22,6 @@
   color: white;
 
 
-=======
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #151515;  
-    color: white;
-    
-    
->>>>>>> 8f036b0acb000fc65d04553bb9f8c8787f4fde57
 }
 
 .hoofdtekst h2 {
